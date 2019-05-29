@@ -1,0 +1,153 @@
+.container{
+  margin-top: 3%;
+
+}
+.content-page{
+  height: 100vh;
+}
+.btn-default{
+  background-color: #e40000;
+  width: 50px;
+  border-top-left-radius:0px;
+  border-bottom-left-radius:0px;
+  /*border-radius: 0px;*/
+}
+.form-control{
+  border-radius: 4px;
+  overflow: hidden;
+}
+.box{
+  width: 50px;
+  height: 40px;
+  background-color: #eeeded;
+  border-radius: 4px;
+}
+.box >i{
+  color: #000;
+ margin: 0 auto;
+  display: block;
+  padding-left: 25px;
+  padding-top: 13px;
+}
+@media (max-width: 576px) {
+  .box{
+    width: 30px;
+    height: 40px;
+  }
+  .box >i{
+    padding-left: 15px;
+    padding-top: 13px;
+  }
+  .col-xs-3{
+    width: 80%;
+  }
+  .col-xs-2{
+    width: 20%;
+  }
+  .icon-div{
+    margin-left: 40%;
+  }
+
+}
+@media (max-width: 764px){
+  .container {
+    max-width: 645px;
+  }
+  .icon_div{
+    margin-left: 40%;
+  }
+}
+@media (min-width: 768px) {
+  .container {
+    max-width: 870px;
+  }
+}
+.box1{
+/*background-color: #daebff;*/
+  width: 100%;
+  height: auto;
+}
+.card-title{
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  text-transform:uppercase;
+}
+.card-text{
+  font-size: 12px;
+}
+
+.widgets_div {
+  border-bottom: thin #edf1f2 solid;
+  padding: 22.85px 0;
+  display: flex;
+  align-items: center;
+}
+.widgets_div .icon_div {
+  display: inline;
+  margin-left: 15px;
+}
+
+.widgets_div .icon_div span i {
+  font-size: 24px;
+  color: #e40000;
+}
+
+.widgets_div .text_div {
+  display: inline;
+  margin-left: 10px;
+}
+
+.widgets_div .text_div span {
+  color: #333;
+  font-size: 18px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.widgets_div .text_div span+span {
+  color: #747F85;
+  font-size: 11px;
+}
+.card-body{
+  display: block;
+  display: -webkit-box;
+  margin: 0 auto;
+  line-height: 1.2;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.options{
+  width: 50%;
+}
+.card-header{
+  background-color: #fff;
+  /*border-bottom: none;*/
+  /*border-top: none;*/
+}
+.box3{
+  width: 100%;
+}
+.box4{
+  background-color: #eeeded;
+  width: 100%;
+}
+.box4 h6{
+  font-size: 10px;
+}
+.INR {
+  font-family: webRupee;
+}
+.btn-primary{
+  background-color: #e40000;
+  padding: 4px;
+  border: none;
+  font-size: 14px;
+}
+.collapse .card-body:hover{
+  -webkit-box-shadow: 3px 0px 14px -6px rgba(128,125,125,1);
+  -moz-box-shadow: 3px 0px 14px -6px rgba(128,125,125,1);
+  box-shadow: 3px 0px 14px -6px rgba(128,125,125,1);
+}

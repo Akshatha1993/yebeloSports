@@ -1,1 +1,11 @@
 /* You can add global styles to this file, and also import other style files */
+body{
+    padding-bottom: 0;
+}
+.topnav{
+    border-bottom: none;
+}
+body[data-layout].topnav{
+    left: 0;
+    top: 0;
+}
